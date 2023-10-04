@@ -29,7 +29,8 @@ abstract class EnergyPlant {
   void consumeEnergy(double amount);
 }
 
-// extends or implements
+// extends
+// is more general
 
 // Create WindPlant
 class WindPlant extends EnergyPlant {
@@ -45,6 +46,7 @@ class WindPlant extends EnergyPlant {
 }
 
 //Implements
+// is specific
 
 class NuclearPlant implements EnergyPlant {
   @override
